@@ -1,0 +1,108 @@
+body{
+    background-image: linear-gradient(#F3D184, #E5B3B6,#DA9FD6,#D591C4,#DC9A92,#E9B368);
+}
+.box1{
+    width: 900px;
+    height: 890px;
+    background-color: #F3D184;
+    margin-right: -95px;
+    border-bottom-left-radius: 40px;
+    /* border-bottom-right-radius: 40px; */
+    /* border-top-right-radius: 40px; */
+    border-top-left-radius: 40px;
+}
+
+.form{
+display: flex;
+justify-content: space-around;
+margin:  300px; 
+
+}
+
+.box2{
+    width: 980px;
+    height: 890px;
+    background-color:#f5f2eb;
+    margin-left: -95px;
+    /* border-bottom-left-radius: 40px; */
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    /* border-top-left-radius: 40px; */
+}
+h1{
+   
+   font-size: xx-large;
+   margin-left: 80px;
+
+}
+
+img{
+    width: 600px;
+    height: 550px;
+    margin-left:10px;
+    margin-bottom: -75px;
+}
+h4{
+margin-left: 70px;
+font-size: x-large;
+}
+h3{
+   margin-left: 75%;
+   font-size: x-large;
+}
+input{
+    font-size: xx-large;
+}
+button{
+    background-color: rgb(255, 0, 106);
+    font-size: xx-large;
+}
+p{
+    font-size: xx-large;
+}
+
+.FullName{
+    position:relative;
+    left: 380px;
+    font-size: larger;
+    bottom: 70px;
+}
+.text1{
+position: relative;
+left: 380px;
+width: 290px;
+}
+.Username{
+    position: relative;
+    bottom: 5px;
+    font-size: large;
+}
+.text2{
+    position: relative;
+    bottom: 65px;
+    width: 290px;
+    
+}
+.email{
+    position:relative;
+    left: 30px;
+    font-size: large;
+    bottom: -30px;
+}
+.text3{
+    position: relative;
+    left: 150px;
+    width: 370px;
+}
+.psw{
+    position: relative;
+    font-size: large;
+    left: 60px;
+    bottom: -30px;
+}
+.text4{
+    position: relative;
+    left: 150px;
+    width: 370px;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="form">
+        <div class="box1"> 
+        
+       
+            <h1>Dribble</h1>
+            <h4>Discover the world's</br>top Designers & <br/>Creatives.</h4><br/>
+            <img src="image/opo.jpg" alt="dribble" width="350px" height="340"><br>
+            <h5 style="bottom: -80px;">Art by <br/>Siara</h5>
+        </div>
+    <div class="box2">
+        <h3>Already a member? <a href="page.html" style="color:dodgerblue">Sign up</a></h3><br/>
+    
+        <br><h2>Sign up to Dribble </h2><br/>
+      
+    <div class="g-signin2" data-onsuccess="onSignIn"><button type="" class="" >Sign Up with Google</button></div> 
+    <script>
+        function onSignIn(googleUser){}
+        </script>
+        <p>Please fill in this form to create an account.</p>
+        <label class="Username"><b><br/>FullName</b></label>
+         <input class="text1" placeholder="" name="username"required><br/>
+         <label class="FullName" style="margin-left:95% ;"><b><br/>Username</b></label>
+         <input class="text2" placeholder="" required><br/>
+
+         <label class="email"><b><br/>Email Address</b></label><br/>
+         <input class="text3" placeholder="" name="email" required><br/>
+         <label class="psw"><b><br/>Password</b></label><br/>
+          <input class="text4" placeholder="6+characters"required>
+         
+
+         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">Remember me
+        </label><br/> 
+        <br/><input type="checkbox" checked="checked"name="" style="font-size: x-large;">By creating an account you agree to our default</input><br/>
+        <a href="#" style="color:dodgerblue " >Terms  Privacy, Policy and Notification Settings</a></p>
+        
+        <button type="submit" class="signupbtn" href="page.html">Create Account</button>
+    </div>
+
+    </div>
+    
+</body>
+</html>
